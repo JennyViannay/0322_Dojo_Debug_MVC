@@ -21,7 +21,12 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "scr/"
+            "App\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "phpro/grumphp": true
         }
     }
 }
